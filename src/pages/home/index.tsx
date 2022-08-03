@@ -1,5 +1,5 @@
 import React from 'react'
-import { Button } from 'antd'
+import { Button, Card, Table } from 'antd'
 
 const Index: React.FC = () => {
   return (
@@ -8,6 +8,9 @@ const Index: React.FC = () => {
       <div>
         <Button>按钮</Button>
       </div>
+      <Card>
+        <Table />
+      </Card>
     </>
   )
 }

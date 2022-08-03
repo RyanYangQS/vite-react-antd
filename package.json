@@ -28,7 +28,8 @@
     "lint-staged": "^13.0.3",
     "prettier": "^2.7.1",
     "typescript": "^4.6.4",
-    "vite": "^3.0.0"
+    "vite": "^3.0.0",
+    "vite-plugin-imp": "^2.2.0"
   },
   "lint-staged": {
     "**/*.{js,jsx,ts,tsx,vue,css,less,scss,md,json}": "prettier --write"
