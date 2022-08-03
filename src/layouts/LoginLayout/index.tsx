@@ -1,12 +1,12 @@
 import React from 'react'
-import { Outlet } from 'react-router-dom'
+import { Outlet, Link } from 'react-router-dom'
 
 const Index: React.FC = () => {
   return (
     <>
-      <div>
-        <span>菜单1</span>
-        <span>菜单1</span>
+      <div style={{ display: 'flex' }}>
+        <Link to="login">login</Link>
+        <Link to="home">home</Link>
       </div>
       <Outlet />
     </>

@@ -1,6 +1,7 @@
 import { Navigate } from 'react-router-dom'
 import LoginLayout from '@/layouts/LoginLayout'
 import Login from '@/pages/login'
+import Home from '@/pages/home'
 
 const routes = [
   {
@@ -11,6 +12,10 @@ const routes = [
       {
         path: 'login',
         element: <Login />,
+      },
+      {
+        path: 'home',
+        element: <Home />,
       },
       // route404,
     ],
